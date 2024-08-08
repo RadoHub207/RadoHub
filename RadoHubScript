@@ -10,7 +10,7 @@ aimbot = Instance.new("TextButton")
 bighead = Instance.new("TextButton")
 credits = Instance.new("TextLabel")
 
-ScreenGui.Parent = game.Players.LocalPlayer.PlayerGui
+game.CoreGui.Parent = game.Players.LocalPlayer.PlayerGui
 
 assassin.Name = "assassin"
 assassin.Parent = ScreenGui
